@@ -1,0 +1,32 @@
+.header{
+    background-color:#181818;
+    color: #fff;
+    font-weight: 600;
+}
+.header__cont{
+    display: flex;
+    align-items: center;
+    padding: 13px 0 14px;
+}
+.logo{
+    margin-right: 60px;
+}
+.nav__item:not(:last-child){
+    margin-right: 22px;
+}
+.nav__item:last-child{
+    margin-right: 57px;
+}
+.nav__items, .header-search{
+    display: flex;
+    align-items: center;
+}
+.header-plus, .header-vlad{
+    margin-right: 19px;
+}
+.header-vlad{
+    border-radius: 50%;
+}
+.novosti{
+    color: #888888;
+}
